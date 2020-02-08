@@ -319,3 +319,52 @@ rgba(22,22,22,.8) 90%),url(../img/group.jpg);
 	padding-right: 6rem;
 	padding-top:2rem;
 }
+}
+/*Collapsible*/
+.collapsible {
+  background-color: #64a19d;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  margin-top:0.2rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  /*font-size: 15px;*/
+  text-align: center;
+  letter-spacing:inherit;
+}
+
+.active_collap, .collapsible:hover {
+  background-color: #64a19d;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active_collap:after {
+  content: "\2212";
+}
+
+.content_collap {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content_collap p {
+	margin-bottom:0.3rem;
+	margin-top:0.3rem;
+	
+}
