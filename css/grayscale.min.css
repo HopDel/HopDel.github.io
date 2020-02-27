@@ -179,7 +179,8 @@ rgba(22,22,22,.8) 90%),url(../img/1.jpg);
 
 @media (min-width:992px){
 	.projects-section .project-text{
-		padding:2rem}
+		padding:2rem;
+		text-align:justify!important}
 	.projects-section .project-text hr{
 		border-color:#64a19d;
 		border-width:.25rem;
