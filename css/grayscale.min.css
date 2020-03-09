@@ -320,7 +320,18 @@ rgba(22,22,22,.8) 90%),url(../img/1.jpg);
 	padding-right: 6rem;
 	padding-top:2rem;
 }
+
 }
+
+.text-lg-justify-imp{
+	text-align:center;
+}
+@media (min-width:992px){
+.text-lg-justify-imp{
+	text-align:justify;
+}
+}
+
 /*Collapsible*/
 .collapsible {
 	border-color: #64a19d;
